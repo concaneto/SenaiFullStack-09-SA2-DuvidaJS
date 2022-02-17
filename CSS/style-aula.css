@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@200&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: #000B30;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-grid {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.posicionamento-header {
+    height: 150px;
+    padding: 5px;
+}
+
+.header-logo {
+    background-color:#000B30;
+    width: 33%;
+}
+
+.header-logo img {
+    width: 380px; 
+    height: 200px;
+    float: left;
+}
+
+.header-right {
+     width: 67%;
+}
+
+.header-search {
+    height: 50px;
+    background-color: rgb(190, 152, 152);
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 10px;
+    
+}
+
+#search-input {
+    width: 500px;
+    border: groove;
+    border-radius: 5px;
+    background-color: #000B30;
+    color: rgb(186, 186, 187);
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.header-social-media {
+    align-items: flex-end;
+    justify-content: space-between end;
+    background-color: #000B30;   
+}
+
+.header-space {
+    height: 70px;
+}
+
+.header-nav {
+    align-items: flex-start;
+    display: flex;
+
+}
+
+
+.header-menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font: #000B30;
+    /* background-image: linear-gradient(rgb(19, 7, 88), rgb(0, 119, 255), rgb(178, 248, 248)); */
+    /* padding-top: px; */
+}
+
+.carrinho {
+    background-color: #000B30;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.sign-login {
+    display: flex;
+    justify-content: center;
+}
+
+.separacao {
+    background-color: white;
+    height: 5px;
+}
+
+
+body {
+    background-color: white;
+}
+.menu-barras {
+    width: 50px;
+    display: none;
+}
+
+.menu a{
+    color: rgb(218, 11, 11);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+
+}
+
+
+
+.banner {
+    height: 600px;
+    /* background-image: url(../img/Banner1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.texto-banner {
+    color: #000B30;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    
+}
+
+.texto-banner h1 {
+    font-family: 'titillium web', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.texto-banner a{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#carrosel img {
+    display: none;
+}
+
+.banner-ativo {
+    display: flex;
+}
+
+.posicao-texto {
+    
+    justify-content: flex-end;
+    color: #000B30;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secao-jogos {
+    background-color: rgb(158, 180, 152);
+    height: fit-content;
+    padding: 100px;
+}
+
+.secao-jogos img{
+    background-color: #808597;
+    border-radius: 10%;
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jogos img{
+    height: 500px;
+}
+
+.secao-sobre {
+    background-color: rgb(230, 230, 230);
+    padding: 100px;
+    justify-content: center;
+}
+
+.texto-sobre {
+    color: #000B30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secao-partidas {
+    height: 120px;
+    background-color: black;
+}
+
+.partidas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.games-ao-vivo {
+    width: 300px;
+}
+
+.games-em-breve {
+    width: 550px;
+}
+
+.games-ao-vivo, .games-em-breve {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.partidas h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.partida {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partida p {
+    margin-bottom: 0;
+}
+
+.time1, .time2 {
+    display: flex;
+    justify-content: center;
+}
+
+.partida img {
+    width: 30px;
+}
+
+.time1 img {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.time2 img {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.secao-noticias {
+    background-color: rgb(70, 70, 70);
+    padding: 30px;
+}
+
+.secao-noticias .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco-noticias {
+    width: 60%;
+    height: 90%;
+    color: white;
+}
+
+.bloco-noticias h2{
+    font-size: 25px;
+}
+
+.content-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cardnews {
+    width: 240px;
+    height: 360px;
+    background: var(--gradient);
+    color: white;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 10px black, 0px 0px 30px black;
+}
+
+.cardnews img {
+    width: 100%;
+}
+
+.cardnews h3 {
+    font-size: 24px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.cardnews p{
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.next-games {
+    width: 30%;
+}
+
+.next-games h2 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.next-games-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    padding: 16px;
+    background: var(--gradient);
+    box-shadow: 0px 0px 10px black, 0px 0px 30px black;
+}
+
+.next-games-match {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-weight: 700;
+}
+
+.next-games-match p {
+    text-align: center;
+}
+
+.teams {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.next-games-match img {
+    max-width: 40px;
+    margin: 4px;
+}
+
+.next-games-match p {
+    margin-top: 16px;
+}
+
+.next-games-match div {
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background-color: #000B30;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.links {
+    color: white;
+}
+
+.links h2 {
+    font-size: 24px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+
+.logo-rodape {
+    width: 100px;
+}
+
+.siga-nos img {
+    width: 50px;
+}
+
+.sociais h2 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.sociais form {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.sociais input[type="email"]{
+    height: 37px;
+    width: 195px;
+}
+
+.sociais input[type="email"]::placeholder {
+    color: #808597;
+    font-weight: bold;
+}
+
+button {
+    width: 156px;
+    color: white;
+    background-color: #0c2d99;
+    border: none;
+    font-size: 18px;
+    
+}
+
+.siga-nos {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+/*--------------------------------------- 
+
+
+
+
+
+começa aqui o passo de responsividade
+
+
+
+
+
+------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 90%;
+    }
+}
+    .logo {
+        width: 200px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+
+@media screen and (max-width: 768px) {
+    h1{
+        color: blue;
+    }
+    
+    .posicionamento-header{
+        position: relative;
+    
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        position: absolute;
+        top: 0;
+        right: 60;
+        background-color: rgb(32, 121, 121);
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .menu-barras {
+        display: inline-block;
+    }
+    .menuAtivo {
+        display: flex;
+    }
+}

@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@200&display=swap');
+
+
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #000B30; 
+    position: initial;
+}
+
+.header-top {
+    height: 120px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+#logo-header {
+    width: 200px;
+    height: 100px;
+}
+
+.header-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-search {
+    border: solid rgb(165, 158, 158);
+    color: #000B30;
+    height: 30px;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(29, 21, 51), 0px 0px 30px rgb(87, 19, 165);
+}
+
+.header-social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.header-social-media img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.dash {
+    height: 2px;
+    background-color: white;
+}
+.dash-2 {
+    height: 5px;
+    background-color:#000B30;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding-right: 10%;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu img {
+    height: 20px;
+    width: 20px;
+}
+
+.header-botton a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-menu img {
+    height: 25px;
+}
+
+#login {
+    text-align: end;
+}
+
+.barras {
+    display: none;
+    width: 30px;
+}
+
+body {
+    width: auto;
+    background-color: white;
+}
+.banner-slide {
+    height: 500px;
+    background-color:#000B30;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px #000B30, 0px 0px 30px #171d33;
+    
+    
+}
+.banner-img {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+    
+}
+
+.banner-img a img {
+    width: 80%;
+    align-items: center;  
+}
+
+.banner-caption {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 45%;
+    
+}
+
+.banner-slide h2 {
+    text-decoration: none;
+    color: rgb(177, 40, 6);
+    border: solid;
+    border-radius: 3px;
+    background-color: none;
+    width: fit-content;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 45%;
+    top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-caption {
+    width: fit-content;
+
+}
+.banner-slide h3 {
+    text-decoration: none;
+    color: rgb(241, 239, 239);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+.banner-slide h5 {
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.secao-promo {
+    height: 800px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.promo-card {
+    height: 350px;
+    width: 30%;
+    background-color: #000B30;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000B30, 0px 0px 30px #171d33;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 25%;
+    border: 15px;
+}
+
+.promo-card img{
+    height: 150px;
+    
+}
+
+.promo-card h3 {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promo-card h4 {
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promo-card h5 {
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secao-categorias {
+    height: 400px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.secao-categorias-titulo {
+    background-color: #000B30;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secao-categorias-titulo h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secao-categorias-icones {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.secao-categorias-icones img {
+    height: 90px;
+}
+
+.card-icon {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.icon-title {
+    background-color:#000B30;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .header-menu{
+        width: 460px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    #logo-header{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .barras{
+        display: inline-block;
+    }
+
+    
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        right: 65px;
+        background-color: black;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .menu-ativo{
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .posicionamento-header{
+        position: relative;
+    }
+
+
+}
