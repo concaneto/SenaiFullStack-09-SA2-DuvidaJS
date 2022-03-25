@@ -232,7 +232,7 @@ body {
 }
 
 .secao-categorias {
-    height: 400px;
+    height: 300px;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -284,13 +284,89 @@ body {
     padding-top: 5px;
     text-transform: uppercase;
     margin-top: 20px;
+    font-weight: bold; 
+}
+
+.container-footer {
+    background-color: #000B30;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.footer-menu {
+    width: 100%;
+    display: flex;
+    height: 180px;
+}
+
+.footer-menu-lista {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.footer-menu-lista h2 {
+    font-size: 30px;
+    color:antiquewhite;
+    text-decoration: none;
     font-weight: bold;
+
+}
+
+.footer-menu-lista a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-icons {
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.footer-logo img {
+    width: 80%;
     
 }
 
+.footer-pagamentos {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10%;
+}
 
+.footer-pagamentos a img {
+    height: 60%;
+    margin-top: 5%;
+}
 
-
+.siteprotegido {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.siteprotegido img{
+    width: 50%;
+}
 
 
 
