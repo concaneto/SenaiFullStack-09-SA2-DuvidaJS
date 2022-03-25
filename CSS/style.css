@@ -70,6 +70,10 @@ header {
     padding-right: 10%;
 }
 
+.menu-ativo{
+    display: none;
+}
+
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
@@ -101,7 +105,7 @@ header {
 
 .barras {
     display: none;
-    width: 30px;
+    width: 45px;
 }
 
 body {
@@ -326,8 +330,6 @@ body {
     .menu-ativo{
         display: flex;
         flex-direction: column;
-
-        
     }
     .posicionamento-header{
         position: relative;
